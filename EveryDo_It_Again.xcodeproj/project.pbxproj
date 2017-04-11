@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		6960F5DF1E8C2F7B0070FE43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960F5DE1E8C2F7B0070FE43 /* main.m */; };
 		6960F5E21E8C2F7B0070FE43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960F5E11E8C2F7B0070FE43 /* AppDelegate.m */; };
-		6960F5E51E8C2F7B0070FE43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960F5E41E8C2F7B0070FE43 /* ViewController.m */; };
 		6960F5E81E8C2F7B0070FE43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6960F5E61E8C2F7B0070FE43 /* Main.storyboard */; };
 		6960F5EB1E8C2F7B0070FE43 /* EveryDo_It_Again.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6960F5E91E8C2F7B0070FE43 /* EveryDo_It_Again.xcdatamodeld */; };
 		6960F5ED1E8C2F7B0070FE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6960F5EC1E8C2F7B0070FE43 /* Assets.xcassets */; };
 		6960F5F01E8C2F7B0070FE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6960F5EE1E8C2F7B0070FE43 /* LaunchScreen.storyboard */; };
+		6960F5F91E8C371D0070FE43 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960F5F81E8C371D0070FE43 /* TableViewController.m */; };
+		6960F6021E8C3A890070FE43 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960F6011E8C3A890070FE43 /* DetailViewController.m */; };
+		6960F6051E8C3ABC0070FE43 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960F6041E8C3ABC0070FE43 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +23,17 @@
 		6960F5DE1E8C2F7B0070FE43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6960F5E01E8C2F7B0070FE43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6960F5E11E8C2F7B0070FE43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6960F5E31E8C2F7B0070FE43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6960F5E41E8C2F7B0070FE43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6960F5E71E8C2F7B0070FE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6960F5EA1E8C2F7B0070FE43 /* EveryDo_It_Again.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EveryDo_It_Again.xcdatamodel; sourceTree = "<group>"; };
 		6960F5EC1E8C2F7B0070FE43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6960F5EF1E8C2F7B0070FE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6960F5F11E8C2F7B0070FE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6960F5F71E8C371D0070FE43 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		6960F5F81E8C371D0070FE43 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		6960F6001E8C3A890070FE43 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6960F6011E8C3A890070FE43 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6960F6031E8C3ABC0070FE43 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		6960F6041E8C3ABC0070FE43 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +66,15 @@
 		6960F5DC1E8C2F7B0070FE43 /* EveryDo_It_Again */ = {
 			isa = PBXGroup;
 			children = (
+				6960F5E61E8C2F7B0070FE43 /* Main.storyboard */,
 				6960F5E01E8C2F7B0070FE43 /* AppDelegate.h */,
 				6960F5E11E8C2F7B0070FE43 /* AppDelegate.m */,
-				6960F5E31E8C2F7B0070FE43 /* ViewController.h */,
-				6960F5E41E8C2F7B0070FE43 /* ViewController.m */,
-				6960F5E61E8C2F7B0070FE43 /* Main.storyboard */,
-				6960F5EC1E8C2F7B0070FE43 /* Assets.xcassets */,
-				6960F5EE1E8C2F7B0070FE43 /* LaunchScreen.storyboard */,
-				6960F5F11E8C2F7B0070FE43 /* Info.plist */,
+				6960F5F71E8C371D0070FE43 /* TableViewController.h */,
+				6960F5F81E8C371D0070FE43 /* TableViewController.m */,
+				6960F6031E8C3ABC0070FE43 /* TableViewCell.h */,
+				6960F6041E8C3ABC0070FE43 /* TableViewCell.m */,
+				6960F6001E8C3A890070FE43 /* DetailViewController.h */,
+				6960F6011E8C3A890070FE43 /* DetailViewController.m */,
 				6960F5E91E8C2F7B0070FE43 /* EveryDo_It_Again.xcdatamodeld */,
 				6960F5DD1E8C2F7B0070FE43 /* Supporting Files */,
 			);
@@ -77,6 +84,9 @@
 		6960F5DD1E8C2F7B0070FE43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6960F5EC1E8C2F7B0070FE43 /* Assets.xcassets */,
+				6960F5EE1E8C2F7B0070FE43 /* LaunchScreen.storyboard */,
+				6960F5F11E8C2F7B0070FE43 /* Info.plist */,
 				6960F5DE1E8C2F7B0070FE43 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -153,10 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6960F5E51E8C2F7B0070FE43 /* ViewController.m in Sources */,
+				6960F6021E8C3A890070FE43 /* DetailViewController.m in Sources */,
+				6960F6051E8C3ABC0070FE43 /* TableViewCell.m in Sources */,
 				6960F5E21E8C2F7B0070FE43 /* AppDelegate.m in Sources */,
 				6960F5EB1E8C2F7B0070FE43 /* EveryDo_It_Again.xcdatamodeld in Sources */,
 				6960F5DF1E8C2F7B0070FE43 /* main.m in Sources */,
+				6960F5F91E8C371D0070FE43 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +323,7 @@
 				6960F5F61E8C2F7B0070FE43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

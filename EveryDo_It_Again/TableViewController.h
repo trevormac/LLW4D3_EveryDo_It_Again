@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  EveryDo_It_Again
 //
 //  Created by Trevor MacGregor on 2017-03-29.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface TableViewController : UITableViewController
+
+@property (nonatomic) NSManagedObjectContext *context;
 
 @end
-
